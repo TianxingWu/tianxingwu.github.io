@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Home</title>
+    <link>https://tianxingwu.github.io/authors/</link>
+      <atom:link href="https://tianxingwu.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019 Tianxing Wu&#39;s Homepage</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tianxingwu.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://tianxingwu.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://tianxingwu.github.io/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am Tianxing Wu (吴天行), a final year undergraduate majoring in Automation at &lt;a href=&#34;http://heuac.hrbeu.edu.cn/en4/&#34; target=&#34;_blank&#34;&gt;College of Automation&lt;/a&gt; , &lt;a href=&#34;http://www.hrbeu.edu.cn/&#34; target=&#34;_blank&#34;&gt;Harbin Engineering University&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;My main research interest lies in robotics and computer vision. In particular, I&amp;rsquo;m interest in vSLAM, 3D Perception, Pattern Recognition, Multi-agent System and everything about intelligent systems. I love programming, data analyzing and mathematical modelling, as well as developing control systems in real world. New knowledge and challenging topics can always make me excited!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m also curious about the signal processing and fusion problem of multimodal interaction between human - robot, robot - robot and real world - virtual world, since I believe intelligence can emerge from connections.&lt;/p&gt;
+
+&lt;p&gt;Contact: wtx666666@hrbeu.edu.cn&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;files/cv.pdf&#34; target=&#34;_blank&#34;&gt;[Curriculum Vitae]&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- 
+[[Curriculum Vitae]](files/cv.pdf) [[Github]](https://github.com/TianxingWu)
+Welcome to the **personal demo** of Academic. Other demos available include:
+
+- [**Project Demo** (Academic&#39;s actual site)](https://sourcethemes.com/academic/)
+
+**Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
+
+**[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community** --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robert Ford</title>
+      <link>https://tianxingwu.github.io/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

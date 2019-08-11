@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Home</title>
+    <link>https://tianxingwu.github.io/project/</link>
+      <atom:link href="https://tianxingwu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019 Tianxing Wu&#39;s Homepage</copyright><lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tianxingwu.github.io/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://tianxingwu.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Buggie-Bot</title>
+      <link>https://tianxingwu.github.io/project/buggie_bot/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/buggie_bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Driver Fatigue Monitoring System</title>
+      <link>https://tianxingwu.github.io/project/fatigue_monitoring/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/fatigue_monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flocking Algorithm for Swarm Robots Inspired by Foam Dynamics</title>
+      <link>https://tianxingwu.github.io/project/foam_simulation/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/foam_simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Face Tracking Pan-Tilt Camera</title>
+      <link>https://tianxingwu.github.io/project/face_tracking_camera/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/face_tracking_camera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gesture Recognition System Based on Capacitive Sensor</title>
+      <link>https://tianxingwu.github.io/project/gesture_recognition/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/gesture_recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Noise-immune Control of Ball and Plate System</title>
+      <link>https://tianxingwu.github.io/project/ball_and_plate/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/ball_and_plate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wechat Jump Game Robot</title>
+      <link>https://tianxingwu.github.io/project/wechat_jump/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/wechat_jump/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Data-driven Model for Mobile Video Services</title>
+      <link>https://tianxingwu.github.io/project/data-driven_model/</link>
+      <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/data-driven_model/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Project Leader, Supervised by Dr. Shujuan Wang&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Built an accurate mathematical model of the relation between network capability and video experience for network planning and assessment, successfully solving the problem proposed by Huawei Technologies&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Constructed a nonlinear function based on both TCP mechanism and a dataset with 89,266 samples&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduced unsupervised anomaly detection algorithm to remove noise data for regression analysis&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Proposed and implemented a probabilistic method to solve the heteroscedasticity of video stalling data, significantly enhancing the prediction accuracy for video stalling ratio&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To put our result into use, we released a Wechat App based on our model for network planning and assessment.&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;\img\projects\Data-driven_Model_1.jpg&#34; width=&#34;400&#34;&gt; &lt;img src=&#34;\img\projects\Data-driven_Model_2.jpg&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
