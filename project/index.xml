@@ -25,7 +25,22 @@
       <link>https://tianxingwu.github.io/project/fatigue_monitoring/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/project/fatigue_monitoring/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;em&gt;Algorithm Engineer, Supervised by Prof. Qiang Zhang&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;National Undergraduate Training Programs for Innovation and Entrepreneurship&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Developed a vision-based fatigue monitoring module for the system&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Extracted geometry features by face alignment using Dlib&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Designed a robust indicator to classify the eye state of the driver&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Constructed a time series using queue data structure to avoid the disturbance of blinks&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +48,18 @@
       <link>https://tianxingwu.github.io/project/foam_simulation/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/project/foam_simulation/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;em&gt;Independent Project, Supervised by Prof. Haihong Chi&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Proposed a distributed control scheme for multi-agent systems inspired by the physics of liquid foams&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Implemented a convincing simulation of 3D flocking behaviour with obstacle avoidance in MATLAB based on an ODE system derived from the dynamic behavior of the foam&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Greatly enhanced the computing efficiency by introducing graph data structure and optimizing the algorithm to a vectorized version, enabling for simulation of massive multi-agent systems&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +67,18 @@
       <link>https://tianxingwu.github.io/project/face_tracking_camera/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/project/face_tracking_camera/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;em&gt;Independent Project, Supervised by Prof. Haihong Chi&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Designed a pan-tilt system consisting of two servos and a USB camera&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Implemented face detection pipeline using image processing and Haar Cascades with OpenCV&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Achieved face tracking with reasonable speed and precision by adding and tuning classic PD control to the system&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -49,7 +86,18 @@
       <link>https://tianxingwu.github.io/project/gesture_recognition/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/project/gesture_recognition/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;em&gt;Sub-team Leader, Supervised by Dr. Yuan Liu&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Led a 5-person software team to develop the overall software architecture of the system&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Designed the key algorithm and training method for recognizing different gestures through capacitance data given by FDC2214 sensor, using median filter to reduce impulsive noises&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Added Palm Rejection function by implementing real-time statistical analysis on the microcontroller for time series data&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -57,7 +105,16 @@
       <link>https://tianxingwu.github.io/project/ball_and_plate/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/project/ball_and_plate/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Detected and transferred position of the ball using OpenCV-Python and serial communication&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Implemented two separate independent PD control loops on the MCU for 2 dimensional positioning&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Optimized the algorithm to overcome large noises using noise-robust differentiator&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
