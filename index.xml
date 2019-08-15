@@ -340,6 +340,23 @@ gantt
     </item>
     
     <item>
+      <title>Real-time Glasses Detection</title>
+      <link>https://tianxingwu.github.io/project/glasses_detection/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/glasses_detection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Method:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To determine the presence of glasses, the edgeness value (y-direction) of two important regions on the aligned face are computed. Then a indicator is constructed based on these values to do the classification.&lt;/p&gt;
+
+&lt;p&gt;The two measurement regions are shown on the schematic below.&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/glasses_schematic.PNG&#34; width=&#34;500&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Display Jupyter Notebooks with Academic</title>
       <link>https://tianxingwu.github.io/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -640,23 +657,6 @@ $$&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;Achieved face tracking with reasonable speed and precision by adding and tuning classic PD control to the system&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Real-time Glasses Detection</title>
-      <link>https://tianxingwu.github.io/project/glasses_detection/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://tianxingwu.github.io/project/glasses_detection/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Method:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;To determine the presence of glasses, the edgeness value (y-direction) of two important regions on the aligned face are computed. Then a indicator is constructed based on these values to do the classification.&lt;/p&gt;
-
-&lt;p&gt;The two measurement regions are shown on the schematic below.&lt;/p&gt;
-
-&lt;p align=&#34;center&#34;&gt;
-    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/glasses_schematic.PNG&#34; width=&#34;500&#34;&gt;
-&lt;/p&gt;
 </description>
     </item>
     
