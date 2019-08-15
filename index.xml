@@ -106,6 +106,23 @@
     </item>
     
     <item>
+      <title>Real-time Glasses Detection</title>
+      <link>https://tianxingwu.github.io/project/glasses_detection/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/glasses_detection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Method:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To determine the presence of glasses, the edgeness value (y-direction) of two important regions on the aligned face are computed. Then a indicator is constructed based on these values to do the classification.&lt;/p&gt;
+
+&lt;p&gt;The two measurement regions are shown on the schematic below.&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/glasses_schematic.PNG&#34; width=&#34;500&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Academic</title>
       <link>https://tianxingwu.github.io/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -336,23 +353,6 @@ gantt
 &lt;/div&gt;
 
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Real-time Glasses Detection</title>
-      <link>https://tianxingwu.github.io/project/glasses_detection/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://tianxingwu.github.io/project/glasses_detection/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Method:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;To determine the presence of glasses, the edgeness value (y-direction) of two important regions on the aligned face are computed. Then a indicator is constructed based on these values to do the classification.&lt;/p&gt;
-
-&lt;p&gt;The two measurement regions are shown on the schematic below.&lt;/p&gt;
-
-&lt;p align=&#34;center&#34;&gt;
-    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/glasses_schematic.PNG&#34; width=&#34;500&#34;&gt;
-&lt;/p&gt;
 </description>
     </item>
     

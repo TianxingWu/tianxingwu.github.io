@@ -34,6 +34,17 @@
   </url>
   
   <url>
+    <loc>https://tianxingwu.github.io/project/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tianxingwu.github.io/project/glasses_detection/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tianxingwu.github.io/post/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url>
@@ -46,12 +57,6 @@
   <url>
     <loc>https://tianxingwu.github.io/project/buggie_bot/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tianxingwu.github.io/project/</loc>
-    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -97,11 +102,6 @@
     <loc>https://tianxingwu.github.io/tags/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tianxingwu.github.io/project/glasses_detection/</loc>
-    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

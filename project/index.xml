@@ -5,7 +5,7 @@
     <link>https://tianxingwu.github.io/project/</link>
       <atom:link href="https://tianxingwu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019 Tianxing Wu&#39;s Homepage</copyright><lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019 Tianxing Wu&#39;s Homepage</copyright><lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tianxingwu.github.io/img/icon-192.png</url>
       <title>Projects</title>
@@ -13,17 +13,9 @@
     </image>
     
     <item>
-      <title>Buggie-Bot</title>
-      <link>https://tianxingwu.github.io/project/buggie_bot/</link>
-      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://tianxingwu.github.io/project/buggie_bot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Real-time Glasses Detection</title>
       <link>https://tianxingwu.github.io/project/glasses_detection/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/project/glasses_detection/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Method:&lt;/strong&gt;&lt;/p&gt;
 
@@ -35,6 +27,14 @@
     &lt;img src=&#34;https://tianxingwu.github.io/img/projects/glasses_schematic.PNG&#34; width=&#34;500&#34;&gt;
 &lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Buggie-Bot</title>
+      <link>https://tianxingwu.github.io/project/buggie_bot/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/buggie_bot/</guid>
+      <description></description>
     </item>
     
     <item>
