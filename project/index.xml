@@ -5,12 +5,66 @@
     <link>https://tianxingwu.github.io/project/</link>
       <atom:link href="https://tianxingwu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Tianxing Wu</copyright><lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Tianxing Wu</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tianxingwu.github.io/img/icon-192.png</url>
       <title>Projects</title>
       <link>https://tianxingwu.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Virtual Head</title>
+      <link>https://tianxingwu.github.io/project/virtual_head/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/virtual_head/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Facial landmarks detection with Dlib&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Noise suppression using mean filter&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pose estimation using PnP method&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Facial expressions extracted from local geometry features&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Python socket client &amp;amp; C# socket server &amp;amp; Real-time Unity rendering&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- &lt;style&gt;
+img{border:0;display:inline;}
+&lt;/style&gt; --&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib1.jpg&#34; width=&#34;210&#34; style=&#34;border:0;display:inline;&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib2.jpg&#34; width=&#34;210&#34; style=&#34;border:0;display:inline;&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib3.jpg&#34; width=&#34;210&#34; style=&#34;border:0;display:inline;&#34;&gt;&lt;/br&gt;
+    &lt;em&gt; Camera Calibration&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;!-- 
+&lt;div style=&#34;float:center&#34;&gt;
+&lt;div style=&#34;float:left&#34;&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib1.jpg&#34; width=&#34;200&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;float:left&#34;&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib2.jpg&#34; width=&#34;200&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;float:left&#34;&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib3.jpg&#34; width=&#34;200&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;app&#34;&gt;
+&lt;div style=&#34;display:inline-block&#34;&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib1.jpg&#34; width=&#34;200&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;display:inline-block;margin-left:10px;&#34;&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib2.jpg&#34; width=&#34;200&#34;&gt;&lt;/div&gt;
+&lt;div style=&#34;display:inline-block;margin-left:10px;&#34;&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib3.jpg&#34; width=&#34;200&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;table&gt;&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib1.jpg&#34; border=0&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib2.jpg&#34; border=0&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://tianxingwu.github.io/img/projects/calib3.jpg&#34; border=0&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt; --&gt;
+</description>
+    </item>
     
     <item>
       <title>Real-time Glasses Detection</title>
