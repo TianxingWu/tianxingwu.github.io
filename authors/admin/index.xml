@@ -366,15 +366,24 @@ rm Untitled.md
       <link>https://tianxingwu.github.io/authors/admin/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am Tianxing Wu (吴天行), a final year undergraduate majoring in Automation at &lt;a href=&#34;http://heuac.hrbeu.edu.cn/en4/&#34; target=&#34;_blank&#34;&gt;College of Automation&lt;/a&gt; , &lt;a href=&#34;http://www.hrbeu.edu.cn/&#34; target=&#34;_blank&#34;&gt;Harbin Engineering University&lt;/a&gt; .&lt;/p&gt;
+      <description>&lt;p&gt;I am Tianxing Wu (吴天行), a final year undergraduate majoring in Automation at &lt;a href=&#34;http://heuac.hrbeu.edu.cn/en4/&#34; target=&#34;_blank&#34;&gt;College of Automation&lt;/a&gt; , &lt;a href=&#34;http://www.hrbeu.edu.cn/&#34; target=&#34;_blank&#34;&gt;Harbin Engineering University&lt;/a&gt; . I&amp;rsquo;m now working at the Institute of Intelligent Control, supervised by Prof. Qidan Zhu and Prof. Zhi Zhang.&lt;/p&gt;
 
-&lt;p&gt;My main research interest lies in Robotics and Computer Vision. In particular, I&amp;rsquo;m interested in vSLAM, 3D Perception, Pattern Recognition, Multi-agent System and everything about intelligent systems. I love programming, data analyzing and mathematical modelling, as well as developing control systems in real world. New knowledge and challenging topics always make me excited!&lt;/p&gt;
+&lt;!-- My main research interest lies in Robotics and Computer Vision. In particular, I&#39;m interested in vSLAM, 3D Perception, Pattern Recognition, Multi-agent System and everything about intelligent systems. I love programming, data analyzing and mathematical modelling, as well as developing control systems in real world. New knowledge and challenging topics always make me excited! --&gt;
 
-&lt;p&gt;I&amp;rsquo;m also curious about the signal processing and fusion problem of multimodal interaction between human - robot, robot - robot and real world - virtual world, since I believe intelligence can emerge from connections.&lt;/p&gt;
+&lt;p&gt;During the past years in the university I have been doing projects related to Robotics Control, Computer Vision and Pattern Recognition. My research interest mainly includes:&lt;/p&gt;
 
-&lt;p&gt;Contact: wtx666666@hrbeu.edu.cn&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Localization and Navigation: SLAM, visual place recognition, multi-agent system&lt;/li&gt;
+&lt;li&gt;HCI: Pose estimation, multimodal interaction, affective computing&lt;/li&gt;
+&lt;li&gt;Image Processing: Deep learning based image dehazing and denoising&lt;/li&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;files/cv.pdf&#34; target=&#34;_blank&#34;&gt;[Curriculum Vitae]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I love programming, data analyzing, mathematical modeling, and everything about intelligent systems. New knowledge and challenging topics always make me excited!&lt;/p&gt;
+
+&lt;!-- I&#39;m also curious about the signal processing and fusion problem of multimodal interaction between human - robot, robot - robot and real world - virtual world, since I believe intelligence can emerge from connections.  --&gt;
+
+&lt;p&gt;&lt;strong&gt;Contact&lt;/strong&gt;: wtx666666@hrbeu.edu.cn&lt;/p&gt;
 
 &lt;!-- 
 [[Curriculum Vitae]](files/cv.pdf) [[Github]](https://github.com/TianxingWu)
