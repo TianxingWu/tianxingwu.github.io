@@ -106,6 +106,39 @@
     </item>
     
     <item>
+      <title>Deep Learning Based Image Preprocessing for Maritime Scenes</title>
+      <link>https://tianxingwu.github.io/project/seafog_remover/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/seafog_remover/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Image preprocessing is one of the spotlight topics in computer vision, which plays an important part in enhancing the visual qualities of images and improving the performance of computer vision systems. Recently, deep learning algorithms has been widely used in image processing tasks, and has shown remarkable improvements compared with traditional methods. However, these researches are primarily focused on images captured on the ground, without paying much attention to the marine surface environment. Therefore, this thesis proposed a modular image preprocessing method that combines both deep learning approach and traditional approach, which can be effectively applied to computer vision systems working for maritime environment. The main contributions of this thesis are as follows:&lt;/p&gt;
+
+&lt;p&gt;(1) The poor performance of the classical atmospheric scattering model and traditional dehazing algorithms in the task of enhancing foggy maritime images is firstly analyzed. Based on the features of sea fog, this thesis revises the air scattering model and proposes a foggy image generation model for the maritime environment. After that, the AOD-Net is chosen as an appropriate defogging algorithm for sea fog image, and is then implemented and evaluated.&lt;/p&gt;
+
+&lt;p&gt;(2) A contrast enhancement algorithm based on histogram equalization is proposed to refine the defogging result of maritime images. The effect of conducting CLAHE algorithm in different color space and different color channel is explored, and the optimal processing scheme for maritime image is proposed.&lt;/p&gt;
+
+&lt;p&gt;(3) The general denoising capability of DnCNN is utilized to realize denoising and deblocking for the enhanced maritime images, further improving the quality of image details.&lt;/p&gt;
+
+&lt;p&gt;(4) A modular image preprocessing framework that can be effectively applied to maritime scenes is proposed, which integrates defogging, denoising and contrast enhancement algorithms as a whole. Subjective and objective evaluation for the proposed algorithm are carried out.&lt;/p&gt;
+
+&lt;p&gt;Experimental results demonstrate that the proposed image preprocessing algorithm can not only achieve great performance under maritime environment, but also has the adaptability to be applied to the outdoor scenes on land. The proposed algorithm has superior performance than some of the state-of-the-art algorithms in terms of PSNR and CIEDE2000.&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/seafog_remover.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/fog_synthesis.jpg&#34;&gt;
+&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/quantitative_evaluation.png&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>OpenVHead</title>
       <link>https://tianxingwu.github.io/project/openvhead/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
