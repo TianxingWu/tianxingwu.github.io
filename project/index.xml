@@ -17,7 +17,9 @@
       <link>https://tianxingwu.github.io/project/seafog_remover/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/project/seafog_remover/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;Bachelor Thesis, Supervised by Prof. Zhi Zhang&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Image preprocessing is one of the spotlight topics in computer vision, which plays an important part in enhancing the visual qualities of images and improving the performance of computer vision systems. Recently, deep learning algorithms has been widely used in image processing tasks, and has shown remarkable improvements compared with traditional methods. However, these researches are primarily focused on images captured on the ground, without paying much attention to the marine surface environment. Therefore, this thesis proposed a modular image preprocessing method that combines both deep learning approach and traditional approach, which can be effectively applied to computer vision systems working for maritime environment. The main contributions of this thesis are as follows:&lt;/p&gt;
 
@@ -234,7 +236,7 @@ img{border:0;display:inline;}
       <link>https://tianxingwu.github.io/project/data-driven_model/</link>
       <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/project/data-driven_model/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Project Leader, Supervised by Dr. Shujuan Wang&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;Project Leader, Supervised by Prof. Shujuan Wang&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
 
