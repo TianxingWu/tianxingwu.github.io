@@ -5,7 +5,7 @@
     <link>https://tianxingwu.github.io/</link>
       <atom:link href="https://tianxingwu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Tianxing Wu</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Tianxing Wu</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tianxingwu.github.io/img/icon-192.png</url>
       <title>Home</title>
@@ -102,6 +102,77 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image Quality Assessment for ID-card OCR</title>
+      <link>https://tianxingwu.github.io/project/iqa/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/iqa/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Project at SenseTime Research&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deep Learning based no-reference image quality assessment (NR-IQA) and distortion type classification&lt;/li&gt;
+&lt;li&gt;Trained Siamese Network as pretrained model which learn from ranked synthetic image pairs&lt;/li&gt;
+&lt;li&gt;Constructed huge non-public authentically distorted image dataset for fine-tuning&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human Action Video Retrieval</title>
+      <link>https://tianxingwu.github.io/project/human_action_video_retrieval/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/human_action_video_retrieval/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Hackathon project at SenseTime Research&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ensemble of 3 models: skeleton-based model, video-based model and keypoint-based model (my part)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>General Table Structure Recognition</title>
+      <link>https://tianxingwu.github.io/project/general_table_recognition/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/general_table_recognition/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Project at SenseTime Research&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deep Learning based ruled line detection &amp;rarr; Structure recognition and refinement&lt;/li&gt;
+&lt;li&gt;Robust key-value extraction&lt;/li&gt;
+&lt;li&gt;Support spanning cells and text out of the table&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://tianxingwu.github.io/img/projects/table2.png&#34; width=&#34;500&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rate My Taichi</title>
+      <link>https://tianxingwu.github.io/project/rate_my_taichi/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/rate_my_taichi/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Project at SenseTime Research&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Real-time rating system for Tai Chi learners&lt;/li&gt;
+&lt;li&gt;Pose estimation with normalization and filtering for better robustness&lt;/li&gt;
+&lt;li&gt;DTW algorithm for motion alignment&lt;/li&gt;
+&lt;li&gt;Relationship model between cosine distance and subjective score&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -804,6 +875,7 @@ $$&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Added follow-up study report (2020.06)&lt;/li&gt;
+&lt;li&gt;Added follow-up study paper (2020.09)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
