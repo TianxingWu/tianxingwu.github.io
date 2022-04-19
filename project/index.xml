@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Home</title>
+    <title>Projects | Tianxing Wu</title>
     <link>https://tianxingwu.github.io/project/</link>
       <atom:link href="https://tianxingwu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Tianxing Wu</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Tianxing Wu</copyright><lastBuildDate>Mon, 10 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tianxingwu.github.io/img/icon-192.png</url>
       <title>Projects</title>
       <link>https://tianxingwu.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Competitive Product Matching Based on NLP</title>
+      <link>https://tianxingwu.github.io/project/product_matching/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/project/product_matching/</guid>
+      <description>&lt;p&gt;&lt;em&gt;M.Sc. Dissertation, performed in NTU &amp;amp; Lazada&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Proposed a two stage text-based product matching framework to retrieve competitive product groups on E-commerce platform&lt;/li&gt;
+&lt;li&gt;Inspired by InfoNCE, designed a novel loss function PNB Loss for fine-tuning Sentence-BERT in Ecommerce domain, enabling effective text representation learning on product titles with weakly-supervised labels&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;\img\projects\product-matching.png&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;\img\projects\pnb_1.png&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;\img\projects\pnb_2.png&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Image Quality Assessment for ID-card OCR</title>

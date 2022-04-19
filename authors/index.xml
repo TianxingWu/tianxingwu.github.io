@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Home</title>
+    <title>Authors | Tianxing Wu</title>
     <link>https://tianxingwu.github.io/authors/</link>
       <atom:link href="https://tianxingwu.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Tianxing Wu</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Tianxing Wu</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tianxingwu.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -17,15 +17,21 @@
       <link>https://tianxingwu.github.io/authors/admin/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://tianxingwu.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am Tianxing Wu (吴天行), M.Sc. student at &lt;a href=&#34;http://www.eee.ntu.edu.sg/&#34; target=&#34;_blank&#34;&gt;School of Electrical and Electronic Engineering&lt;/a&gt;, &lt;a href=&#34;https://www.ntu.edu.sg&#34; target=&#34;_blank&#34;&gt;Nanyang Technological University&lt;/a&gt; (NTU), supervised by  &lt;a href=&#34;https://personal.ntu.edu.sg/eyptan/biography.html&#34; target=&#34;_blank&#34;&gt;Prof. Yap-Peng Tan&lt;/a&gt;. I recieved B.Eng. degree in Automation from College of Automation in &lt;a href=&#34;http://www.hrbeu.edu.cn/&#34; target=&#34;_blank&#34;&gt;Harbin Engineering University&lt;/a&gt; (HEU).&lt;/p&gt;
+      <description>&lt;p&gt;I am currently a Research Associate at &lt;a href=&#34;https://www.mmlab-ntu.com/&#34; target=&#34;_blank&#34;&gt;MMLab@NTU&lt;/a&gt;, working with &lt;a href=&#34;https://liuziwei7.github.io/&#34; target=&#34;_blank&#34;&gt;Prof. Ziwei Liu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Previously, I recieved my Master degree from &lt;a href=&#34;https://www.ntu.edu.sg/eee&#34; target=&#34;_blank&#34;&gt;School of Electrical and Electronic Engineering&lt;/a&gt;, &lt;a href=&#34;https://www.ntu.edu.sg&#34; target=&#34;_blank&#34;&gt;Nanyang Technological University&lt;/a&gt;, supervised by &lt;a href=&#34;https://personal.ntu.edu.sg/eyptan/biography.html&#34; target=&#34;_blank&#34;&gt;Prof. Yap-Peng Tan&lt;/a&gt;, and my Bachelor degree from &lt;a href=&#34;http://cisse.hrbeu.edu.cn/&#34; target=&#34;_blank&#34;&gt;College of Automation&lt;/a&gt;, &lt;a href=&#34;http://www.hrbeu.edu.cn/&#34; target=&#34;_blank&#34;&gt;Harbin Engineering University&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- I am Tianxing Wu (吴天行), M.Sc. student at [School of Electrical and Electronic Engineering](http://www.eee.ntu.edu.sg/), [Nanyang Technological University](https://www.ntu.edu.sg) (NTU), supervised by  [Prof. Yap-Peng Tan](https://personal.ntu.edu.sg/eyptan/biography.html). I recieved B.Eng. degree in Automation from College of Automation in [Harbin Engineering University](http://www.hrbeu.edu.cn/) (HEU). --&gt;
 
 &lt;!-- I&#39;m now working at the Institute of Intelligent Control, supervised by Prof. Qidan Zhu and Prof. Zhi Zhang.--&gt;
 
 &lt;!-- My main research interest lies in Robotics and Computer Vision. In particular, I&#39;m interested in vSLAM, 3D Perception, Pattern Recognition, Multi-agent System and everything about intelligent systems. I love programming, data analyzing and mathematical modelling, as well as developing control systems in real world. New knowledge and challenging topics always make me excited! --&gt;
 
-&lt;p&gt;Before coming to NTU, I spent 4 months as computer vision research intern at SenseTime Research (商汤科技研究院), supervised by Yudong Wu. In this period, I mainly worked on algorithms related to OCR, Image Quality Assessment and Human Action Retrieval.&lt;/p&gt;
+&lt;!-- Before coming to NTU, I spent 4 months as computer vision research intern at SenseTime Research (商汤科技研究院), supervised by Yudong Wu. In this period, I mainly worked on algorithms related to OCR, Image Quality Assessment and Human Action Retrieval. 
 
-&lt;p&gt;Back in HEU as an undergraduate student, I worked at the Institute of Intelligent Control under the supervision of &lt;a href=&#34;http://homepage.hrbeu.edu.cn/web/zhuqidan&#34; target=&#34;_blank&#34;&gt;Prof. Qidan Zhu&lt;/a&gt; and &lt;a href=&#34;http://homepage.hrbeu.edu.cn/web/zhangzhi&#34; target=&#34;_blank&#34;&gt;Prof. Zhi Zhang&lt;/a&gt;, doing projects related to Robotics Control, Computer Vision and Pattern Recognition.&lt;/p&gt;
+
+
+Back in HEU as an undergraduate student, I worked at the Institute of Intelligent Control under the supervision of [Prof. Qidan Zhu](http://homepage.hrbeu.edu.cn/web/zhuqidan) and [Prof. Zhi Zhang](http://homepage.hrbeu.edu.cn/web/zhangzhi), doing projects related to Robotics Control, Computer Vision and Pattern Recognition.  --&gt;
 
 &lt;!-- My research interest mainly includes:
 
@@ -33,7 +39,9 @@
 - Robotics: SLAM, visual servoing, multi-agent system
 - Image Processing: Deep learning based image dehazing and denoising  --&gt;
 
-&lt;p&gt;My research interest lies broadly in Computer Vision and Robotics, and I&amp;rsquo;m particularly interested in topics about human behavior analysis, virtual character and image/video processing. Currently I am working on Self-supervised Learning for video analysis.&lt;/p&gt;
+&lt;p&gt;My research interest lies broadly in computer vision and deep learning, and I&amp;rsquo;m particularly interested in human-centric topics like facial expression and human motion. Currently I&amp;rsquo;m working on Self-supervised Learning and DeepFake detection related tasks.&lt;/p&gt;
+
+&lt;!-- My research interest lies broadly in Computer Vision and Robotics, and I&#39;m particularly interested in topics about human behavior analysis, virtual character and image/video processing. Currently I am working on Self-supervised Learning for video analysis. --&gt;
 
 &lt;!-- I love programming, mathematical modeling, and everything about intelligent systems. I am particularly interested in topics about interactions between human - robot and virual world - real world. New knowledge and challenging topics always make me excited! --&gt;
 
