@@ -5,7 +5,7 @@
     <link>https://tianxingwu.github.io/publication/</link>
       <atom:link href="https://tianxingwu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Tianxing Wu</copyright><lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Tianxing Wu</copyright><lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tianxingwu.github.io/img/icon-192.png</url>
       <title>Publications</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Detecting and Grounding Multi-Modal Media Manipulation
+</title>
+      <link>https://tianxingwu.github.io/publication/conference-paper/dgm4/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://tianxingwu.github.io/publication/conference-paper/dgm4/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Detecting and Recovering Sequential DeepFake Manipulation</title>
-      <link>https://tianxingwu.github.io/publication/conference-paper/</link>
+      <link>https://tianxingwu.github.io/publication/conference-paper/seqfakeformer/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://tianxingwu.github.io/publication/conference-paper/</guid>
+      <guid>https://tianxingwu.github.io/publication/conference-paper/seqfakeformer/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
