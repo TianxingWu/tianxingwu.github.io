@@ -10,22 +10,14 @@
       'https://forms.gle/kY8EaQ242bdXpfv2A'
     ];
 
-    // Function to get the next URL
-    var currentIndex = 0;
-    function getNextURL() {
-      var url = urls[currentIndex];
-      currentIndex = (currentIndex + 1) % urls.length;
-      return url;
-    }
-
-    // Function to redirect to the next URL
-    function redirectToNextURL() {
-      var nextURL = getNextURL();
-      window.location.href = nextURL;
+    // Function to redirect randomly
+    function redirectToRandomURL() {
+      var randomIndex = Math.floor(Math.random() * urls.length);
+      window.location.href = urls[randomIndex];
     }
 
     // Call the function when the page loads
-    window.onload = redirectToNextURL;
+    window.onload = redirectToRandomURL;
   </script>
 </head>
 <body>
