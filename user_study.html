@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Study Redirect</title>
+  <script>
+    // Array of URLs
+    var urls = [
+      'https://forms.gle/7CbVRffQj9cTHHFd9',
+      'https://forms.gle/4n4prkh72VhHoQQJ9',
+      'https://forms.gle/kY8EaQ242bdXpfv2A'
+    ];
+
+    // Function to get the next URL
+    var currentIndex = 0;
+    function getNextURL() {
+      var url = urls[currentIndex];
+      currentIndex = (currentIndex + 1) % urls.length;
+      return url;
+    }
+
+    // Function to redirect to the next URL
+    function redirectToNextURL() {
+      var nextURL = getNextURL();
+      window.location.href = nextURL;
+    }
+
+    // Call the function when the page loads
+    window.onload = redirectToNextURL;
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
