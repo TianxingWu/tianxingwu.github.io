@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="FreeInit: Bridging Initialization Gap in Video Diffusion Models">
+  <meta name="keywords" content="FreeInit, Video Diffusion Models, Text-to-Video, Stable Diffusion, AIGC, Video Generation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FreeInit: Bridging Initialization Gap in Video Diffusion Models</title>
+
+<!--   Global site tag (gtag.js) - Google Analytics-->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5ZVQZ7NHC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y5ZVQZ7NHC');
+  </script> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/common/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/common/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/common/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/common/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./assets/common/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./assets/common/js/fontawesome.all.min.js"></script>
+  <script src="./assets/common/js/bulma-carousel.min.js"></script>
+  <script src="./assets/common/js/bulma-slider.min.js"></script>
+  <script src="./assets/common/js/index.js"></script>
+</head>
+<body>
+
+<!-- title -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"><span style="color:#ffba97; font-weight: bold; font-style: italic">FreeInit</span> : Bridging Initialization Gap <br>in Video Diffusion Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+
+
+              <span class="author-block">
+                  <a href="https://tianxingwu.github.io" target="_blank">Tianxing Wu</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://chenyangsi.github.io/" target="_blank">Chenyang Si</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://yumingj.github.io/" target="_blank">Yuming Jiang</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://ziqihuangg.github.io" target="_blank">Ziqi Huang</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://liuziwei7.github.io/" target="_blank">Ziwei Liu</a><sup>&#8224</sup>
+              </span>
+          </div>
+
+        <div class="is-size-5 publication-authors">
+          <span class="author-block">S-Lab, Nanyang Technological University</span>
+        </div>
+
+        <div class="column has-text-centered">
+          <div class="publication-links">
+            
+            <span class="link-block">
+              <a href="https://arxiv.org/abs/xxxxxxxx" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="ai ai-arxiv"></i>
+                </span>
+                <span>arXiv</span>
+              </a>
+            </span>
+            <!-- Video Link. -->
+            <span class="link-block">
+              <a href="https://www.youtube.com/watch?v=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-youtube"></i>
+                </span>
+                <span>Video</span>
+              </a>
+            </span>
+            <!-- Code Link. -->
+            <span class="link-block">
+              <a href="https://github.com/TianxingWu/FreeInit" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>GitHub</span>
+              </a>
+            </span>
+            <!-- Huggingface Demo Link. -->
+            <!-- <span class="link-block">
+              <a href="https://huggingface.co/spaces/Ziqi/ReVersion" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-face-smiling-hands"></i>
+                </span>
+                <span>Huggingface Demo</span>
+              </a>
+            </span> -->
+            <!-- Dataset Link. -->
+            <!-- <span class="link-block">
+              <a href="https://drive.google.com/drive/folders/1FU1Ni-oDpxQCNYKo-ZLEfSGqO-j_Hw7X" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="far fa-images"></i>
+                </span>
+                <span>Dataset</span>
+              </a> -->
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- first row -->
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <div class="item">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+            <div class="desc">AnimateDiff</div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/1-1.mp4" type="video/mp4">
+              </video> 
+            </div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/1-2.mp4" type="video/mp4">
+              </video> 
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+            <div class="desc">VideoCrafter</div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/2-1.mp4" type="video/mp4">
+              </video> 
+            </div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/2-2.mp4" type="video/mp4">
+              </video> 
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+            <div class="desc">AnimateDiff</div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/3-1.mp4" type="video/mp4">
+              </video> 
+            </div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/3-2.mp4" type="video/mp4">
+              </video> 
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+            <div class="desc">AnimateDiff</div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/4-1.mp4" type="video/mp4">
+              </video> 
+            </div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/4-2.mp4" type="video/mp4">
+              </video> 
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+            <div class="desc">ModelScope</div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/5-1.mp4" type="video/mp4">
+              </video> 
+            </div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/5-2.mp4" type="video/mp4">
+              </video> 
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+            <div class="desc">AnimateDiff</div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/6-1.mp4" type="video/mp4">
+              </video> 
+            </div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/6-2.mp4" type="video/mp4">
+              </video> 
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+            <div class="desc">AnimateDiff</div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/7-1.mp4" type="video/mp4">
+              </video> 
+            </div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/7-2.mp4" type="video/mp4">
+              </video> 
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="twentytwenty-container" data-orientation="horizontal" ratio="0.5556">
+            <div class="desc">AnimateDiff</div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/8-1.mp4" type="video/mp4">
+              </video> 
+            </div>
+            <div class="video">
+              <video muted autoplay="autoplay" loop="loop" width="50%">
+                <source src="./assets/freeinit/videos/8-2.mp4" type="video/mp4">
+              </video> 
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+</section>
+
+<!-- teaser -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- <img src="assets/reversion/images/fig_teaser.jpg" style="width:1000px; margin-bottom:20px;"
+                   alt="Teaser."/> -->
+      <p>
+        we propose <b>FreeInit</b>, a concise yet effective method to improve temporal consistency of videos generated by diffusion models. FreeInit requires no additional training and introduces no learnable parameters, and can be easily incorporated into arbitrary video diffusion models at inference time.
+      <p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper video. -->
+<section class="hero is-light is-small">
+  <div class="columns is-centered has-text-centered"  style="margin-top: 10px; margin-bottom: 20px;">
+    <div class="column is-three-fifths">
+      <h2 class="title is-3">Video</h2>
+      <div class="publication-video">
+        <iframe src="https://www.youtube.com/embed/xxxxxxxxxxxxxxxxx" frameborder="10"
+          allow="autoplay; encrypted-media" width="50%" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- / Paper video.   -->
+
+
+<!-- Abstract. -->
+<section>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered" style="margin-top: 10px; margin-bottom: 0px;">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Though video generation has witnessed rapid progress, the inference results of existing models still exhibit unsatisfactory temporal consistency and unnatural dynamics. In this paper, we delve deep into the noise initialization of video diffusion models, and discover an implicit training-inference gap that attributes to the inference quality drop. Our key findings are: <b>1)</b> the spatial-temporal frequency distribution of the initial latent's signal-to-noise ratio (SNR) at inference is intrinsically different from training, and <b>2)</b> the denoising process is significantly influenced by the low-frequency component of the initial noise. Motivated by these observations, we propose a concise yet effective inference sampling strategy, <b>FreeInit</b>, which significantly improves temporal consistency of videos generated by diffusion models. Through iteratively refining the spatial-temporal low-frequency component of the initial latent during inference, FreeInit is able to compensate the initialization gap between training and inference, thus effectively improving the subject appearance and temporal consistency of generation results. Extensive experiments demonstrate that FreeInit consistently enhances the generation results of various text-to-video generation models without additional training.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+<!--/ Abstract. -->
+
+<!--/ Framework. -->
+<section class="section" style="margin-top:-50px; margin-bottom:-50px;">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <div class="section-title">
+          <h2 class="title is-3 is-centered">FreeInit Framework</h2>
+        </div>
+        <div class="columns is-centered has-text-centered">
+          <div class="column">
+            <div class="publication-img">
+              <img id="architecture" src="assets/freeinit/images/pipeline.png" style="width:1000px; margin-top:10px;margin-bottom:10px;"/>
+            </div>
+          </div>
+        </div>
+        <p>
+          We propose FreeInit to bridge the <b>initialization gap</b> between training and inference of video diffusion models. FreeInit refines the inference initial noise in an iterative manner. Through <b>DDIM Sampling</b>, <b>DDPM Forward</b> and <b>Noise Reinitialization</b>, the <em>low frequency components</em> of initial noise is gradually refined, consistently enhancing the temporal consistency and subject appearance.
+        </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- AnimateDiff Results -->
+<section class="hero is-light is-small" >
+  <div class="hero-body">
+
+
+    <div class="container is-max-desktop"  style="margin-top:30px;">
+
+      <div class="section-title">
+        <h2 class="title is-3">AnimateDiff</h2>
+      </div>
+
+      <h2 class="subtitle has-text-centered">Videos generated by AnimateDiff before and after FreeInit.</h2>
+
+      <div id="results-AnimateDiff" class="carousel results-carousel">
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/animatediff_results_1.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/animatediff_results_2.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/animatediff_results_3.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/animatediff_results_4.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/animatediff_results_5.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/animatediff_results_6.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+
+
+      </div>
+    </div>    
+</section>
+
+<!-- ModelScope Results -->
+<section class="hero is-light is-small" >
+  <div class="hero-body">
+
+
+    <div class="container is-max-desktop"  style="margin-top:30px;">
+
+      <div class="section-title">
+        <h2 class="title is-3">ModelScope</h2>
+      </div>
+
+      <h2 class="subtitle has-text-centered">Videos generated by ModelScope before and after FreeInit.</h2>
+
+      <div id="results-ModelScope" class="carousel results-carousel">
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/modelscope_results_1.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/modelscope_results_2.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/modelscope_results_3.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/modelscope_results_4.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/modelscope_results_5.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/modelscope_results_6.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+
+
+      </div>
+    </div>    
+</section>
+
+
+<!-- VideoCrafter Results -->
+<section class="hero is-light is-small" >
+  <div class="hero-body">
+
+
+    <div class="container is-max-desktop"  style="margin-top:30px;">
+
+      <div class="section-title">
+        <h2 class="title is-3">VideoCrafter</h2>
+      </div>
+
+      <h2 class="subtitle has-text-centered">Videos generated by VideoCrafter before and after FreeInit.</h2>
+
+      <div id="results-VideoCrafter" class="carousel results-carousel">
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/videocrafter_results_1.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/videocrafter_results_2.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/videocrafter_results_3.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/videocrafter_results_4.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/videocrafter_results_5.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+        <div class="item">
+          <div class="video">
+            <video muted autoplay="autoplay" loop="loop" width="100%">
+              <source src="./assets/freeinit/videos/videocrafter_results_6.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+
+
+      </div>
+    </div>    
+</section>
+
+
+
+<!-- BibTeX -->
+<section class="hero is-light is-small" id="BibTeX" >
+  <div class="container is-max-desktop content" style="margin-top: 40px; margin-bottom: 20px;">
+    <h2 class="title">BibTeX</h2>
+    <p>If you find our work useful, please consider citing our paper:</p>
+    <pre><code>@article{huang2023reversion,
+      title={{ReVersion}: Diffusion-Based Relation Inversion from Images},
+      author={Huang, Ziqi and Wu, Tianxing and Jiang, Yuming and Chan, Kelvin C.K. and Liu, Ziwei},
+      journal={arXiv preprint arXiv:2303.13495},
+      year={2023}
+}</code></pre>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/abs/2303.13495">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/ziqihuangg/ReVersion" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website source code based on the <a href="https://nerfies.github.io/"> Nerfies</a> project page. If you want to reuse their <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a>, please credit them appropriately.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- custom js file  -->
+<!-- <script defer src="./assets/js/fontawesome.all.min.js"></script> -->
+<script src="./assets/common/js/bulma-carousel.min.js"></script>
+<script src="./assets/common/js/bulma-slider.min.js"></script>
+<script src="./assets/common/js/index.js"></script>
+<script src="./assets/common/js/jquery.event.move.js"></script>
+<script src="./assets/common/js/jquery.twentytwenty.js"></script>
+<script>
+$(function(){
+  $(".twentytwenty-container").twentytwenty();
+  // $(".twentytwenty-container", "#results-carousel").twentytwenty({default_offset_pct: 0.5, ratio: 0.5});
+});
+</script>
+
+</body>
+</html>
