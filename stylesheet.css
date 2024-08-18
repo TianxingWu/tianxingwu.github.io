@@ -81,7 +81,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 14px;
 }
 
 strong {
@@ -89,15 +89,17 @@ strong {
   font-size: 14px;
 }
 
-heading {
+h2 {
+  margin: 0;
+  font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
 }
 
-papertitle {
+.papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700
+  font-size: 110%;
+  font-weight: Bold;
 }
 
 .name {
